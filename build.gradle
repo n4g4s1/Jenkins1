@@ -12,3 +12,8 @@ dependencies {
 test {
     outputs.upToDateWhen { false }
 }
+
+plugins {
+    id 'java'
+    id 'jacoco'
+}
