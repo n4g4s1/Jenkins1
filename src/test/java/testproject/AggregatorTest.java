@@ -29,7 +29,7 @@ public class AggregatorTest {
     }
     @Test
     public void testReset(){
- 	Aggregator agr = new Agregator();
+ 	Aggregator agr = new Aggregator();
 	agr.addValue(1D);
 	agr.reset();
 	assertThat(agr.getSum()).isEqualTo(0);
